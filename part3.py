@@ -19,3 +19,10 @@ Enter the height: 3
 """
 
 #write your code here 
+base = int(input("base: "))
+height = int(input("height: "))
+
+for i in range(height):
+  for j in range(base):
+    print ("*", end = "")
+  print( )
