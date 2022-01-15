@@ -8,3 +8,11 @@ For example, if the user types in 4, the program should print 100 (since 1^3 + 2
 """
 
 #write your code here
+integer = int(input("Enter a positive integer: "))
+cubes = 0
+
+for i in range(integer + 1):
+  print ("i =", i, "cubes =", cubes)
+  cubes = cubes + (i*i*i)
+
+print(cubes)
